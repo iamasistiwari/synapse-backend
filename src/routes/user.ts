@@ -1,5 +1,5 @@
 import express, { Request, Response } from 'express';
-import { userModel } from '../db'; // Assuming userModel is the model for your users
+import { userModel } from '../db';
 const userRouter = express.Router();
 
 interface SignupRequestBody {
